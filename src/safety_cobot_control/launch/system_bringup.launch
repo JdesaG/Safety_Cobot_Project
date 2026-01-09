@@ -22,4 +22,6 @@
   <node pkg="tf2_ros" type="static_transform_publisher" name="kinect_tf_broadcaster" 
         args="0.5 0.0 1.8 -1.57 0 -1.57 world kinect_link_optical_frame" />
 
+  <node name="safety_filter" pkg="safety_cobot_control" type="safety_filter.py" output="screen" />      
+
 </launch>

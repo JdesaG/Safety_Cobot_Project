@@ -242,13 +242,13 @@ Visualization Manager:
     - Alpha: 1
       Autocompute Intensity Bounds: true
       Autocompute Value Bounds:
-        Max Value: 2.579233169555664
-        Min Value: 1.02363121509552
+        Max Value: 10
+        Min Value: -10
         Value: true
       Axis: Z
       Channel Name: intensity
       Class: rviz/PointCloud2
-      Color: 255; 0; 0
+      Color: 255; 26; 29
       Color Transformer: FlatColor
       Decay Time: 0
       Enabled: true
@@ -261,8 +261,8 @@ Visualization Manager:
       Selectable: true
       Size (Pixels): 3
       Size (m): 0.009999999776482582
-      Style: Points
-      Topic: /camera/depth/points
+      Style: Flat Squares
+      Topic: /camera/depth/points_filtered
       Unreliable: false
       Use Fixed Frame: true
       Use rainbow: true
@@ -335,5 +335,5 @@ Window Geometry:
   Views:
     collapsed: true
   Width: 1680
-  X: 159
-  Y: -1
+  X: -32
+  Y: -32
